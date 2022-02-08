@@ -1,18 +1,15 @@
-Data Provinsi, Kabupaten, Kecamatan, dan Kelurahan/Desa di Indonesia dalam bentuk json
-------------------------------------------------------------------------
+## Data Provinsi, Kabupaten, Kecamatan, dan Kelurahan/Desa di Indonesia dalam bentuk json
 
 Data disini hanya untuk memudahkan membuat autocomplete di aplikasi yang saya buat, tidak cocok untuk ajax, karena ada proteksi ajax beda domain.
 
-----------
+---
 
+## Struktur data
 
-Struktur data
--------------
 > - provinsi.json
 > - kabupaten/[id provinsi].json
 > - kecamatan/[id kabupaten].json
 > - kelurahan/[id kecamatan].json
-
 
 struktur **id** Kabupaten diawali dengan **id** Provinsi.
 
@@ -22,17 +19,16 @@ struktur **id** Kelurahan diawali dengan **id** Provinsi, **id** Kabupaten, dan 
 
 total ada 91.219 data.
 
+## Contoh Penggunaan
 
-Contoh Penggunaan
--------------
-Untuk contoh cara pakai menggunakan select2 cek berkas [contoh.html](https://github.com/ibnux/data-indonesia/blob/master/contoh.html)
+Untuk contoh cara pakai menggunakan select2 cek berkas [contoh.html](https://github.com/harisalghifary/data-indonesia/blob/master/contoh.html)
 
+## Demo
 
-Demo
--------------
-Untuk demo implementasi bisa dilihat disini: [Demo](https://ibnux.github.io/data-indonesia/contoh.html)
+Untuk demo implementasi bisa dilihat disini: [Demo](https://harisalghifary.github.io/data-indonesia/contoh.html)
 
 ### Support iBNuX
 
-[<img src="https://ibnux.github.io/KaryaKarsa-button/karyaKarsaButton.png" width="128">](https://karyakarsa.com/ibnux)
-[<img src="https://ibnux.github.io/Trakteer-button/trakteer_button.png" width="120">](https://trakteer.id/ibnux)
+This Source is from mas ibnux, please checkout his code.
+[<img src="https://harisalghifary.github.io/KaryaKarsa-button/karyaKarsaButton.png" width="128">](https://karyakarsa.com/ibnux)
+[<img src="https://harisalghifary.github.io/Trakteer-button/trakteer_button.png" width="120">](https://trakteer.id/ibnux)
